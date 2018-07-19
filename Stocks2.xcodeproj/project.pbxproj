@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7DE3D5DA20F81718004938BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5D920F81718004938BC /* main.m */; };
 		7DE3D5E220F81746004938BC /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5E120F81746004938BC /* BNRStockHolding.m */; };
+		7DE3D63321010CB2004938BC /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D63221010CB2004938BC /* BNRForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		7DE3D5D920F81718004938BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DE3D5E020F81746004938BC /* BNRStockHolding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
 		7DE3D5E120F81746004938BC /* BNRStockHolding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
+		7DE3D63121010CB2004938BC /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
+		7DE3D63221010CB2004938BC /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				7DE3D5D920F81718004938BC /* main.m */,
+				7DE3D63121010CB2004938BC /* BNRForeignStockHolding.h */,
+				7DE3D63221010CB2004938BC /* BNRForeignStockHolding.m */,
 			);
 			path = Stocks2;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE3D63321010CB2004938BC /* BNRForeignStockHolding.m in Sources */,
 				7DE3D5DA20F81718004938BC /* main.m in Sources */,
 				7DE3D5E220F81746004938BC /* BNRStockHolding.m in Sources */,
 			);

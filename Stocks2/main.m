@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BNRStockHolding.h"
+#import "BNRForeignStockHolding.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -29,9 +30,14 @@ int main(int argc, const char * argv[]) {
         [Rogers setNumberOfShare:10];
         [Rogers setCurrentSharePrice:276];
         
+        BNRForeignStockHolding *swissCompany = [[BNRForeignStockHolding alloc]init];
+        [swissCompany setPurchaseSharePrice:10];
+        [swissCompany setNumberOfShare:7];
+        [swissCompany setCurrentSharePrice:100];
+        
         //fill the array
         
-        NSArray *allStocks = @[Telus, Bell, Rogers];
+        NSArray *allStocks = @[Telus, Bell, Rogers, swissCompany];
         
         //iterate through it
         
